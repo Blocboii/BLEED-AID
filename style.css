@@ -393,6 +393,24 @@ h5{
     overflow-y: hidden;
 }
 
+.art-section{
+    background-color: grey;
+    margin-top: 40px;
+}
+
+.art-one img{
+    height: 100px;
+    display: flex;
+    float: left;
+    justify-content: space-evenly;
+}
+
+.art-one p{
+    padding: 10px;
+    left: 10px;
+    
+}
+
 /* footer */
 .footer{
     margin-top: 300px;
@@ -462,13 +480,14 @@ h5{
     
     .head h2 {
         font-size: 18px;
+        color: #c02f0b;
         background-color: #f4f4f4;
-        color: rgb(173, 197, 219);
         padding: 20px;
         border: 3px solid white;
         margin-bottom: 50px;
         text-align: center;
         line-height: 1.5;
+        
     }
 
     h3{
@@ -556,6 +575,164 @@ h5{
     .cards-wrapper-two{
         flex-wrap: nowrap;
         overflow-x: scroll;
+    }
+
+    .art-section{
+        background-color: grey;
+        margin-top: 100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        overflow-y: scroll;
+        height: 900px;
+        -webkit-overflow-scrolling: touch;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .art-section h4{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .art-one{
+        border-bottom: 1px solid red;
+        padding-bottom: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .art-one img{
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+    
+    .art-one-p{
+        padding: 20px;
+        margin-top: 20px;
+        
+    }
+
+    .art-two{
+        border-bottom: 1px solid red;
+        padding-bottom: 70px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .art-two img{
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+    
+    .art-two-p{
+        padding: 20px;
+        margin-top: 20px;
+        
+    }
+
+    .art-three{
+        border-bottom: 1px solid red;
+        padding-bottom: 70px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .art-three img{
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+    
+    .art-three-p{
+        padding: 20px;
+        margin-top: 20px;
+        
+    }
+
+    .art-four{
+        border-bottom: 1px solid red;
+        padding-bottom: 70px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .art-four img{
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+    
+    .art-four-p{
+        padding: 20px;
+        margin-top: 20px;
+        
+    }
+
+    .art-five{
+        border-bottom: 1px solid red;
+        padding-bottom: 70px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .art-five img{
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+    
+    .art-five-p{
+        padding: 20px;
+        margin-top: 20px;
+        
+    }
+
+    .art-six{
+        border-bottom: 1px solid red;
+        padding-bottom: 70px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .art-six img{
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+    
+    .art-six-p{
+        padding: 20px;
+        margin-top: 20px;
+        
+    }
+
+    .art-seven{
+        border-bottom: 1px solid red;
+        padding-bottom: 70px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .art-seven img{
+        height: 100px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+    
+    .art-seven-p{
+        padding: 20px;
+        margin-top: 20px;
+        
     }
 
     .footer{
